@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-5094784250151641015
+--- !u!114 &-3491370670192871312
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -23,8 +23,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Texturizador
-  m_Shader: {fileID: -6465566751694194690, guid: 9401f2de6bca7ed4e84da0c3e3c97c53, type: 3}
+  m_Name: experimental
+  m_Shader: {fileID: -6465566751694194690, guid: b0a203d36fec20f4389d3b1471059ef8, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
@@ -76,13 +76,18 @@ Material:
     - _AlphaCutoffEnable: 0
     - _AlphaDstBlend: 0
     - _AlphaSrcBlend: 1
+    - _AlturaPicos: 179
+    - _Ancho: 0.2
     - _BlendMode: 0
+    - _CantidadPicos: 13.1
     - _ConservativeDepthOffsetEnable: 0
     - _ContrasteLaterales: 1
-    - _ContrasteTop: 1
+    - _ContrasteTop: 4.6
+    - _CorrectVelRel: 0.21
     - _CullMode: 2
     - _CullModeForward: 2
     - _DepthOffsetEnable: 0
+    - _DireccionTextura: -1
     - _DoubleSidedEnable: 0
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 2
@@ -92,21 +97,27 @@ Material:
     - _EditarTOP: 1
     - _EnableBlendModePreserveSpecularLighting: 1
     - _EnableFogOnTransparent: 1
-    - _EscalaLateral: 0.05
-    - _EscalaTOP: 0.01
+    - _EscalaLateral: 1
+    - _EscalaRuido: 3.81
+    - _EscalaTOP: 0.001
     - _ExcludeFromTUAndAA: 0
     - _FadeLaterales: 0.5
     - _FadeTop: 0.5
+    - _Largo: 0.06
     - _MaterialID: 1
     - _MaterialTypeMask: 2
-    - _Metallic: 1
+    - _Metallic: 0
+    - _MovimientoPicos: 252
     - _OpaqueCullMode: 2
+    - _Pasillo: 0.4
     - _PerPixelSorting: 0
     - _RayTracing: 0
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 0
     - _RefractionModel: 0
     - _RenderQueueType: 1
+    - _RepHorizontal: 2
+    - _RepLongitudinal: 5
     - _RequireSplitLighting: 0
     - _Smoothness: 0
     - _SrcBlend: 1
@@ -123,7 +134,7 @@ Material:
     - _SupportDecals: 1
     - _SurfaceType: 0
     - _Te_irLaterales: 2
-    - _Te_irTop: 0.5
+    - _Te_irTop: 2
     - _TransmissionEnable: 1
     - _TransparentBackfaceEnable: 0
     - _TransparentCullMode: 2
@@ -133,17 +144,24 @@ Material:
     - _TransparentWritingMotionVec: 0
     - _TransparentZWrite: 0
     - _UseShadowThreshold: 0
+    - _VelocidadRelieve: 0.1
+    - _VelocidadTextura: 0.8
     - _ZTestDepthEqualForOpaque: 3
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
     - _ZWrite: 1
-    - _power: 500
+    - _alto: 1
+    - _ancho: 0.05
+    - _inversion: 0.33
+    - _largo: 0.2
+    - _power: 63490
+    - _rotacion: 0
     - _velocidad: 0.1
     m_Colors:
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _TinteLaterales: {r: 0, g: 0, b: 0, a: 0}
-    - _TinteTop: {r: 1, g: 0, b: 1, a: 0}
-    - _tilling: {r: 3, g: 2, b: 0, a: 0}
+    - _TinteLaterales: {r: 0.12300205, g: 0, b: 1, a: 0}
+    - _TinteTop: {r: 1, g: 0.55309707, b: 0, a: 0}
+    - _tilling: {r: 2, g: 6.42, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

@@ -55,7 +55,7 @@ Material:
     - _AlphaSrcBlend: 1
     - _BlendMode: 0
     - _ConservativeDepthOffsetEnable: 0
-    - _CorreccionVelocidad: -0.1
+    - _CorreccionVelocidad: 1.13
     - _CullMode: 2
     - _CullModeForward: 2
     - _DepthOffsetEnable: 0
@@ -66,6 +66,7 @@ Material:
     - _DstBlend2: 0
     - _EnableBlendModePreserveSpecularLighting: 0
     - _EnableFogOnTransparent: 1
+    - _EscalaUV: 0.25
     - _ExcludeFromTUAndAA: 0
     - _MaterialID: 1
     - _MaterialTypeMask: 2
@@ -112,14 +113,14 @@ Material:
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
     - _ZWrite: 1
-    - _escalaHorizontal: 225.1
-    - _escalaRuido1: 0.24
+    - _escalaHorizontal: 1
+    - _escalaRuido1: 0.07
     - _escalaRuido2: 1
     - _escalaVertical: 1
     - _oclusion: 1
-    - _power: 2
+    - _power: 1
     - _smoothness: 0
-    - _velocidad: -1
+    - _velocidad: -116.59
     m_Colors:
     - _Color1: {r: 0.23584908, g: 0.17083225, b: 0.085662164, a: 0}
     - _Color2: {r: 0.11400853, g: 0.3962264, b: 0.17421502, a: 0}
@@ -129,7 +130,7 @@ Material:
     - _TessDispla: {r: 0, g: 0, b: 0, a: 0}
     - _Tiling: {r: 1.33, g: 1, b: 0, a: 0}
     - _offset: {r: 1, g: 1, b: 0, a: 0}
-    - _tilling: {r: 500, g: 4.74, b: 0, a: 0}
+    - _tilling: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &2061253466747396414
