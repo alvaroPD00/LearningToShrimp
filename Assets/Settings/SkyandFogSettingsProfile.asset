@@ -142,7 +142,7 @@ MonoBehaviour:
     m_Value: 5
   atmosphereThickness:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0.74
   skyTint:
     m_OverrideState: 1
     m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}

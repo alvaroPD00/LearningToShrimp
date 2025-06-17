@@ -15,7 +15,7 @@ D:/Guardados/Cosas agrupadas/Productivo/unity/learning to shrimp
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56346
+52286
 -job-worker-count
 1
 -background-job-worker-count
@@ -59,12 +59,12 @@ D:/Guardados/Cosas agrupadas/Productivo/unity/learning to shrimp
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [1400]  Target information:
+Player connection [12384]  Target information:
 
-Player connection [1400]  * "[IP] 192.168.0.226 [Port] 0 [Flags] 2 [Guid] 595483911 [EditorId] 595483911 [Version] 1048832 [Id] WindowsEditor(7,Alvarete-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [12384]  * "[IP] 192.168.0.226 [Port] 0 [Flags] 2 [Guid] 2236545316 [EditorId] 2236545316 [Version] 1048832 [Id] WindowsEditor(7,Alvarete-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [1400] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [1400] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12384] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [12384] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 1
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -76,7 +76,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 169.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.34f1 (5ab2d9ed9190)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/Resources/UnitySubsystems
@@ -94,47 +94,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56748
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.34f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.006588 seconds.
-- Loaded All Assemblies, in  0.669 seconds
+Registered in 0.012560 seconds.
+- Loaded All Assemblies, in  1.011 seconds
 Native extension for LinuxStandalone target not found
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.635 seconds
-Domain Reload Profiling: 1302ms
-	BeginReloadAssembly (231ms)
+- Finished resetting the current domain, in  0.901 seconds
+Domain Reload Profiling: 1906ms
+	BeginReloadAssembly (322ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (67ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (80ms)
-	LoadAllAssembliesAndSetupDomain (268ms)
-		LoadAssemblies (228ms)
+	RebuildCommonClasses (85ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (114ms)
+	LoadAllAssembliesAndSetupDomain (458ms)
+		LoadAssemblies (317ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (260ms)
-			TypeCache.Refresh (258ms)
-				TypeCache.ScanAssembly (235ms)
+		AnalyzeDomain (453ms)
+			TypeCache.Refresh (452ms)
+				TypeCache.ScanAssembly (426ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (635ms)
+	FinalizeReload (902ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (562ms)
+		SetupLoadedEditorAssemblies (820ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (51ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (96ms)
-			ProcessInitializeOnLoadAttributes (305ms)
-			ProcessInitializeOnLoadMethodAttributes (102ms)
+			InitializePlatformSupportModulesInManaged (67ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (132ms)
+			ProcessInitializeOnLoadAttributes (428ms)
+			ProcessInitializeOnLoadMethodAttributes (182ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -143,458 +143,62 @@ Domain Reload Profiling: 1302ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.512 seconds
+- Loaded All Assemblies, in  2.795 seconds
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.826 seconds
-Domain Reload Profiling: 3336ms
-	BeginReloadAssembly (295ms)
+- Finished resetting the current domain, in  2.721 seconds
+Domain Reload Profiling: 5472ms
+	BeginReloadAssembly (686ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (16ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (48ms)
-	RebuildCommonClasses (64ms)
-	RebuildNativeTypeToScriptingClass (29ms)
-	initialDomainReloadingComplete (70ms)
-	LoadAllAssembliesAndSetupDomain (1051ms)
-		LoadAssemblies (593ms)
+		CreateAndSetChildDomain (71ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (131ms)
+	LoadAllAssembliesAndSetupDomain (1842ms)
+		LoadAssemblies (1349ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (645ms)
-			TypeCache.Refresh (420ms)
-				TypeCache.ScanAssembly (396ms)
-			BuildScriptInfoCaches (201ms)
-			ResolveRequiredComponents (20ms)
-	FinalizeReload (1827ms)
+		AnalyzeDomain (995ms)
+			TypeCache.Refresh (648ms)
+				TypeCache.ScanAssembly (610ms)
+			BuildScriptInfoCaches (297ms)
+			ResolveRequiredComponents (40ms)
+	FinalizeReload (2722ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1528ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (209ms)
-			ProcessInitializeOnLoadAttributes (781ms)
-			ProcessInitializeOnLoadMethodAttributes (522ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 451 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6654 unused Assets / (6.2 MB). Loaded Objects now: 7613.
-Memory consumption went from 237.9 MB to 231.6 MB.
-Total: 14.230800 ms (FindLiveObjects: 0.910600 ms CreateObjectMapping: 1.375200 ms MarkObjects: 7.161300 ms  DeleteObjects: 4.782700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 84574.694486 seconds.
-  path: Assets/Texturizado/Shaders/Texturizador.mat
-  artifactKey: Guid(425f92822e9716441b543e65712ca83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturizado/Shaders/Texturizador.mat using Guid(425f92822e9716441b543e65712ca83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa01bc273583073026ae416b1502997c') in 4.1662006 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 504.630046 seconds.
-  path: Assets/Texturizado/Shaders/pruebas/procedural/Shader Graphs_Terreno 1.mat
-  artifactKey: Guid(13830d9e333bde04a80a5c27cd21b317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturizado/Shaders/pruebas/procedural/Shader Graphs_Terreno 1.mat using Guid(13830d9e333bde04a80a5c27cd21b317) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f46753eb8f9121b040a6872b9ebe6bd8') in 1.4339424 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Texturizado/Shaders/pruebas/procedural/Shader Graphs_Terreno 2.mat
-  artifactKey: Guid(fbc787189dd5b4849a9c9cda3d35fff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturizado/Shaders/pruebas/procedural/Shader Graphs_Terreno 2.mat using Guid(fbc787189dd5b4849a9c9cda3d35fff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a96c2a34de9954cc85afdfef298b867') in 0.028658 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Texturizado/Shaders/pruebas/procedural/Terreno 1.shadergraph
-  artifactKey: Guid(c67ee3164c9c92342956c6700efcedf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturizado/Shaders/pruebas/procedural/Terreno 1.shadergraph using Guid(c67ee3164c9c92342956c6700efcedf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a150878991f7d6b38dc522300efac5a6') in 0.0345224 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 1219.280508 seconds.
-  path: Assets/Texturizado/Shaders/pruebas/procedural/Shader Graphs_Terreno 1.mat
-  artifactKey: Guid(13830d9e333bde04a80a5c27cd21b317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturizado/Shaders/pruebas/procedural/Shader Graphs_Terreno 1.mat using Guid(13830d9e333bde04a80a5c27cd21b317) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7bf9ef67be32df2350c74dbdae8d8f54') in 2.1747049 seconds
-Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/Texturizado/Shaders/pruebas/procedural/Shader Graphs_Terreno 2.mat
-  artifactKey: Guid(fbc787189dd5b4849a9c9cda3d35fff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturizado/Shaders/pruebas/procedural/Shader Graphs_Terreno 2.mat using Guid(fbc787189dd5b4849a9c9cda3d35fff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16e8d8bc05649ad9c4d47b4b281c62e3') in 0.0399393 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 133.953727 seconds.
-  path: Assets/Texturizado/Shaders/pruebas/procedural/Shader Graphs_Terreno 1.mat
-  artifactKey: Guid(13830d9e333bde04a80a5c27cd21b317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturizado/Shaders/pruebas/procedural/Shader Graphs_Terreno 1.mat using Guid(13830d9e333bde04a80a5c27cd21b317) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9cd28c9391153ff5cde8863d84e1fdf3') in 2.7709142 seconds
-Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/Texturizado/Shaders/pruebas/procedural/Shader Graphs_Terreno 2.mat
-  artifactKey: Guid(fbc787189dd5b4849a9c9cda3d35fff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturizado/Shaders/pruebas/procedural/Shader Graphs_Terreno 2.mat using Guid(fbc787189dd5b4849a9c9cda3d35fff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99bd9e332cfeada786138be27a9389a5') in 0.0344218 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 834.665731 seconds.
-  path: Assets/Texturizado/Shaders/pruebas/procedural/Shader Graphs_Terreno 1.mat
-  artifactKey: Guid(13830d9e333bde04a80a5c27cd21b317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturizado/Shaders/pruebas/procedural/Shader Graphs_Terreno 1.mat using Guid(13830d9e333bde04a80a5c27cd21b317) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fca6c0d677095287d740960d1b167e2') in 2.3300889 seconds
-Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/Texturizado/Shaders/pruebas/procedural/Shader Graphs_Terreno 2.mat
-  artifactKey: Guid(fbc787189dd5b4849a9c9cda3d35fff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturizado/Shaders/pruebas/procedural/Shader Graphs_Terreno 2.mat using Guid(fbc787189dd5b4849a9c9cda3d35fff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63a930c799bb45405099b4ee7aaa3d56') in 0.1330941 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 763.849174 seconds.
-  path: Assets/Modelos
-  artifactKey: Guid(7241b6d7fce7f4045a287505c40a7165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos using Guid(7241b6d7fce7f4045a287505c40a7165) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94acf3ae607357a4a789ab49f7ed26a9') in 0.0011545 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/Modelos/LPRAWN_L.3DS
-  artifactKey: Guid(b9fd2d409e9858d42a8bbfd66b7207a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modelos/LPRAWN_L.3DS using Guid(b9fd2d409e9858d42a8bbfd66b7207a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e76614482429930ece31d32a594729a6') in 1.2573151 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 285
-
-========================================================================
-Received Import Request.
-  Time since last request: 753.711014 seconds.
-  path: Assets/Texturizado/BlueShrimp.mat
-  artifactKey: Guid(5f5579e617091514a9b2a38070a0a129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturizado/BlueShrimp.mat using Guid(5f5579e617091514a9b2a38070a0a129) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f85f20cd9515089c1af7d796e67732a') in 0.1434156 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 349.636029 seconds.
-  path: Assets/Texturizado/BlueShrimp.mat
-  artifactKey: Guid(5f5579e617091514a9b2a38070a0a129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturizado/BlueShrimp.mat using Guid(5f5579e617091514a9b2a38070a0a129) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06b1e00c1249e4a47bb6ca918903e4b4') in 0.0449251 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 81.713540 seconds.
-  path: Assets/Texturizado/Shaders/pruebas/experimental.mat
-  artifactKey: Guid(b171c16b8a92fa549b813fe865da6ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturizado/Shaders/pruebas/experimental.mat using Guid(b171c16b8a92fa549b813fe865da6ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40fa73dbc73f6f99113936ba1d32dec4') in 1.4399703 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Leak Detected : Persistent allocates 8 individual allocations. To find out more please enable 'Preferences > Jobs > Leak Detection Level > Enabled With Stack Trace' and reproduce the leak again.
-- Loaded All Assemblies, in  1.516 seconds
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.980 seconds
-Domain Reload Profiling: 3500ms
-	BeginReloadAssembly (549ms)
-		ExecutionOrderSort (1ms)
-		DisableScriptedObjects (84ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (203ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (856ms)
-		LoadAssemblies (584ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (429ms)
-			TypeCache.Refresh (14ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (392ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1981ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1421ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (259ms)
-			ProcessInitializeOnLoadAttributes (985ms)
-			ProcessInitializeOnLoadMethodAttributes (145ms)
-			AfterProcessingInitializeOnLoad (13ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (33ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6653 unused Assets / (5.1 MB). Loaded Objects now: 7756.
-Memory consumption went from 224.8 MB to 219.7 MB.
-Total: 22.751100 ms (FindLiveObjects: 2.039500 ms CreateObjectMapping: 3.095200 ms MarkObjects: 10.319400 ms  DeleteObjects: 7.295200 ms)
-
-Prepare: number of updated asset objects reloaded= 1
-========================================================================
-Received Import Request.
-  Time since last request: 1417.228580 seconds.
-  path: Assets/Texturizado/Shaders/pruebas/experimental.mat
-  artifactKey: Guid(b171c16b8a92fa549b813fe865da6ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturizado/Shaders/pruebas/experimental.mat using Guid(b171c16b8a92fa549b813fe865da6ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79f2565a8b0af24f2d6b1b92215308bb') in 1.4299524 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Leak Detected : Persistent allocates 8 individual allocations. To find out more please enable 'Preferences > Jobs > Leak Detection Level > Enabled With Stack Trace' and reproduce the leak again.
-- Loaded All Assemblies, in  1.161 seconds
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.014 seconds
-Domain Reload Profiling: 3180ms
-	BeginReloadAssembly (343ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (54ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (91ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (716ms)
-		LoadAssemblies (467ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (381ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (352ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (2019ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1499ms)
+		SetupLoadedEditorAssemblies (2368ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (279ms)
-			ProcessInitializeOnLoadAttributes (1012ms)
-			ProcessInitializeOnLoadMethodAttributes (165ms)
-			AfterProcessingInitializeOnLoad (22ms)
-			EditorAssembliesLoaded (0ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (325ms)
+			ProcessInitializeOnLoadAttributes (1226ms)
+			ProcessInitializeOnLoadMethodAttributes (784ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (2ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (44ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 2.64 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6653 unused Assets / (5.1 MB). Loaded Objects now: 7826.
-Memory consumption went from 221.5 MB to 216.3 MB.
-Total: 20.305600 ms (FindLiveObjects: 1.288700 ms CreateObjectMapping: 3.214100 ms MarkObjects: 9.408800 ms  DeleteObjects: 6.393000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.105 seconds
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.675 seconds
-Domain Reload Profiling: 2781ms
-	BeginReloadAssembly (269ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (63ms)
-	RebuildCommonClasses (49ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (732ms)
-		LoadAssemblies (466ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (399ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (369ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (1676ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1279ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (148ms)
-			ProcessInitializeOnLoadAttributes (932ms)
-			ProcessInitializeOnLoadMethodAttributes (174ms)
-			AfterProcessingInitializeOnLoad (14ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (37ms)
-Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6652 unused Assets / (4.4 MB). Loaded Objects now: 7828.
-Memory consumption went from 225.3 MB to 220.9 MB.
-Total: 19.179300 ms (FindLiveObjects: 2.240000 ms CreateObjectMapping: 2.264400 ms MarkObjects: 9.053100 ms  DeleteObjects: 5.619700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 2829.324636 seconds.
-  path: Assets/Texturizado/Shaders/pruebas/procedural/Terreno.shadergraph
-  artifactKey: Guid(f81cd4f88366d594991068e98fbecd02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturizado/Shaders/pruebas/procedural/Terreno.shadergraph using Guid(f81cd4f88366d594991068e98fbecd02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba796dd11103b9f4df29a4cd436b2c07') in 1.5943912 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 2
+Unloading 449 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6654 unused Assets / (5.1 MB). Loaded Objects now: 7609.
+Memory consumption went from 232.7 MB to 227.6 MB.
+Total: 17.343000 ms (FindLiveObjects: 1.076700 ms CreateObjectMapping: 1.817800 ms MarkObjects: 10.579000 ms  DeleteObjects: 3.868300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Texturizado/Shaders/pruebas/procedural/Terreno 1.shadergraph
-  artifactKey: Guid(c67ee3164c9c92342956c6700efcedf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturizado/Shaders/pruebas/procedural/Terreno 1.shadergraph using Guid(c67ee3164c9c92342956c6700efcedf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1978fd0d9c0f1bdea64cd30eecfa0faf') in 0.2297058 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 250.304362 seconds.
-  path: Assets/Texturizado/Shaders/pruebas/procedural/Shader Graphs_Terreno 1.mat
-  artifactKey: Guid(13830d9e333bde04a80a5c27cd21b317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturizado/Shaders/pruebas/procedural/Shader Graphs_Terreno 1.mat using Guid(13830d9e333bde04a80a5c27cd21b317) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35a304485791c9abd69cebb626f518c7') in 1.9146108 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Texturizado/Shaders/pruebas/procedural/Shader Graphs_Terreno 2.mat
-  artifactKey: Guid(fbc787189dd5b4849a9c9cda3d35fff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturizado/Shaders/pruebas/procedural/Shader Graphs_Terreno 2.mat using Guid(fbc787189dd5b4849a9c9cda3d35fff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6dda8853352db1f350520248a2eeca41') in 0.072807 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Texturizado/Shaders/pruebas/procedural/Terreno 1.shadergraph
-  artifactKey: Guid(c67ee3164c9c92342956c6700efcedf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturizado/Shaders/pruebas/procedural/Terreno 1.shadergraph using Guid(c67ee3164c9c92342956c6700efcedf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc2438807cf28a2332189b2353ec1a81') in 0.210728 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 179.206671 seconds.
-  path: Assets/Texturizado/Shaders/pruebas/procedural/Shader Graphs_Terreno 2.mat
-  artifactKey: Guid(fbc787189dd5b4849a9c9cda3d35fff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturizado/Shaders/pruebas/procedural/Shader Graphs_Terreno 2.mat using Guid(fbc787189dd5b4849a9c9cda3d35fff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3ca64e1a7af51ae2ea416efef5825a2') in 2.3508858 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 222.287904 seconds.
-  path: Assets/Texturizado/Shaders/pruebas/procedural/Shader Graphs_Terreno 2.mat
-  artifactKey: Guid(fbc787189dd5b4849a9c9cda3d35fff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturizado/Shaders/pruebas/procedural/Shader Graphs_Terreno 2.mat using Guid(fbc787189dd5b4849a9c9cda3d35fff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab53c44ed42fe6e8d82da7950c9c4897') in 0.0181956 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.080831 seconds.
-  path: Assets/Texturizado/Shaders/pruebas/procedural/Shader Graphs_Terreno 2.mat
-  artifactKey: Guid(fbc787189dd5b4849a9c9cda3d35fff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturizado/Shaders/pruebas/procedural/Shader Graphs_Terreno 2.mat using Guid(fbc787189dd5b4849a9c9cda3d35fff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3de43c48751535aea99e1cd200823c9') in 0.0261024 seconds
-Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 76.930935 seconds.
-  path: Assets/Texturizado/Shaders/pruebas/procedural/Shader Graphs_Terreno 2.mat
-  artifactKey: Guid(fbc787189dd5b4849a9c9cda3d35fff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturizado/Shaders/pruebas/procedural/Shader Graphs_Terreno 2.mat using Guid(fbc787189dd5b4849a9c9cda3d35fff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8acf147430993321d4e54b5426047f6') in 0.02293 seconds
-Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 64.336059 seconds.
-  path: Assets/Texturizado/Shaders/pruebas/procedural/Shader Graphs_Terreno 2.mat
-  artifactKey: Guid(fbc787189dd5b4849a9c9cda3d35fff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturizado/Shaders/pruebas/procedural/Shader Graphs_Terreno 2.mat using Guid(fbc787189dd5b4849a9c9cda3d35fff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '888bb0b4d97139e77fe4d5a161c14a79') in 2.6339294 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 352.651764 seconds.
-  path: Assets/Texturizado/Shaders/pruebas/procedural/Shader Graphs_Terreno 2.mat
-  artifactKey: Guid(fbc787189dd5b4849a9c9cda3d35fff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturizado/Shaders/pruebas/procedural/Shader Graphs_Terreno 2.mat using Guid(fbc787189dd5b4849a9c9cda3d35fff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64c3950eab4f7b46984844967728324a') in 2.4829142 seconds
-Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 10010.306895 seconds.
-  path: Assets/Texturizado/Shaders/pruebas/procedural/Shader Graphs_Terreno 2.mat
-  artifactKey: Guid(fbc787189dd5b4849a9c9cda3d35fff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturizado/Shaders/pruebas/procedural/Shader Graphs_Terreno 2.mat using Guid(fbc787189dd5b4849a9c9cda3d35fff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1bb5446a30f96471a3a94869477fabe3') in 0.0206317 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 795.635909 seconds.
-  path: Assets/Texturizado/Shaders/pruebas/procedural/Shader Graphs_Terreno 2.mat
-  artifactKey: Guid(fbc787189dd5b4849a9c9cda3d35fff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturizado/Shaders/pruebas/procedural/Shader Graphs_Terreno 2.mat using Guid(fbc787189dd5b4849a9c9cda3d35fff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c98e651717dddc6edf3af1f2b80fc4f') in 0.043811 seconds
-Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 53.206800 seconds.
-  path: Assets/Texturizado/Shaders/Texturizador.shadergraph
-  artifactKey: Guid(9401f2de6bca7ed4e84da0c3e3c97c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Texturizado/Shaders/Texturizador.shadergraph using Guid(9401f2de6bca7ed4e84da0c3e3c97c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2fed41c3f79120d3b0c89c14d5ab817') in 0.0607608 seconds
-Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 2
+  Time since last request: 94720.263921 seconds.
+  path: Assets/OutdoorsScene.unity
+  artifactKey: Guid(8124e5870f4fd4c779e7a5f994e84ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OutdoorsScene.unity using Guid(8124e5870f4fd4c779e7a5f994e84ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cad33e1788a71710781b12a21ffe9b9c') in 0.0240919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 

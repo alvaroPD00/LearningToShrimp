@@ -76,10 +76,10 @@ Material:
     - _AlphaCutoffEnable: 0
     - _AlphaDstBlend: 0
     - _AlphaSrcBlend: 1
-    - _AlturaPicos: 179
+    - _AlturaPicos: 323
     - _Ancho: 0.2
     - _BlendMode: 0
-    - _CantidadPicos: 13.1
+    - _CantidadPicos: 8.13
     - _ConservativeDepthOffsetEnable: 0
     - _ContrasteLaterales: 1
     - _ContrasteTop: 4.6
@@ -107,9 +107,9 @@ Material:
     - _MaterialID: 1
     - _MaterialTypeMask: 2
     - _Metallic: 0
-    - _MovimientoPicos: 252
+    - _MovimientoPicos: 231.91
     - _OpaqueCullMode: 2
-    - _Pasillo: 0.4
+    - _Pasillo: 0.5
     - _PerPixelSorting: 0
     - _RayTracing: 0
     - _ReceivesSSR: 1
@@ -145,7 +145,7 @@ Material:
     - _TransparentZWrite: 0
     - _UseShadowThreshold: 0
     - _VelocidadRelieve: 0.1
-    - _VelocidadTextura: 0.8
+    - _VelocidadTextura: 1.5
     - _ZTestDepthEqualForOpaque: 3
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
