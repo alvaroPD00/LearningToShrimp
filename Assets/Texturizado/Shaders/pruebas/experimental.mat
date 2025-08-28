@@ -27,9 +27,9 @@ Material:
   m_Shader: {fileID: -6465566751694194690, guid: b0a203d36fec20f4389d3b1471059ef8, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
+  m_ValidKeywords: []
+  m_InvalidKeywords:
   - _DISABLE_SSR_TRANSPARENT
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -55,7 +55,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TexturaTOP:
-        m_Texture: {fileID: 2800000, guid: 4e91ff5cebfe8fe4b9f04dacd5820e8c, type: 3}
+        m_Texture: {fileID: 2800000, guid: e333dc45ac2149c4da0d885949bd96de, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -76,13 +76,13 @@ Material:
     - _AlphaCutoffEnable: 0
     - _AlphaDstBlend: 0
     - _AlphaSrcBlend: 1
-    - _AlturaPicos: 323
+    - _AlturaPicos: 263
     - _Ancho: 0.2
     - _BlendMode: 0
     - _CantidadPicos: 8.13
     - _ConservativeDepthOffsetEnable: 0
     - _ContrasteLaterales: 1
-    - _ContrasteTop: 4.6
+    - _ContrasteTop: 2.8
     - _CorrectVelRel: 0.21
     - _CullMode: 2
     - _CullModeForward: 2
@@ -102,15 +102,17 @@ Material:
     - _EscalaTOP: 0.001
     - _ExcludeFromTUAndAA: 0
     - _FadeLaterales: 0.5
-    - _FadeTop: 0.5
+    - _FadeTop: 0.45
     - _Largo: 0.06
     - _MaterialID: 1
     - _MaterialTypeMask: 2
-    - _Metallic: 0
+    - _Metallic: 0.524
     - _MovimientoPicos: 231.91
     - _OpaqueCullMode: 2
-    - _Pasillo: 0.5
+    - _Pasillo: 0.4
     - _PerPixelSorting: 0
+    - _QueueControl: 1
+    - _QueueOffset: 0
     - _RayTracing: 0
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 0
@@ -161,7 +163,20 @@ Material:
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _TinteLaterales: {r: 0.12300205, g: 0, b: 1, a: 0}
-    - _TinteTop: {r: 1, g: 0.55309707, b: 0, a: 0}
+    - _TinteTop: {r: 1, g: 0.5529412, b: 0, a: 0}
     - _tilling: {r: 2, g: 6.42, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
+--- !u!114 &1144967426549868801
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9
